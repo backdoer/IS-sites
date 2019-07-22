@@ -1,0 +1,63 @@
+a {
+	color:maroon;
+	text-decoration:none;
+	font-family:verdana;
+}
+
+ol {
+	font-weight:bold;
+}
+
+ul {
+	font-weight:normal;
+}
+
+#photo:hover {
+	height: 200px;
+
+}
+
+#photo {
+	position:absolute;
+	margin: 2px;
+	border-bottom: solid black 1px;
+}
+
+#heading {
+	position:absolute;
+	
+	
+	z-index: 3;
+	top:10px;
+	left:150px;
+	right:10px;
+	height: 130px;
+	border-bottom:solid black 1px;
+
+}
+
+#navigation {
+	position:absolute;
+	
+	
+	left:10px;
+	bottom:10px;
+	top:150px;
+	width:120px;
+
+
+
+}
+
+#mainbody {
+	position:absolute;
+	
+
+	top:140px;
+	left:140px;
+	bottom: 10px;
+	right:10px;
+	border-left: black solid 1px;
+	padding: 10px;
+
+}
